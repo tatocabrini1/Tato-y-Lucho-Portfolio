@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Tato y Lucho — Portafolio de fotografía</title>
+<link rel="icon" type="image/png" href="images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -48,6 +49,7 @@
     mix-blend-mode:difference;
   }
   nav .mark{ font-weight:700; font-size:15px; letter-spacing:0.02em; }
+  nav .nav-logo{ height:96px; width:auto; display:block; margin:-31px 0 -31px -16px; filter:brightness(1.45) contrast(1.05); } /* la imagen trae mucho margen transparente: se agranda sin engordar el nav */
   nav .links{ display:flex; gap:26px; font-size:13px; }
   nav a{ color:var(--text); text-decoration:none; opacity:.8; }
   nav a:hover{ opacity:1; }
@@ -238,7 +240,7 @@
 <div class="dot" id="dot"></div>
 
 <nav>
-  <span class="mark">Tato y Lucho</span>
+  <img class="nav-logo" src="images/favicon.png" alt="Tato y Lucho">
   <div class="links">
     <a href="#nosotros">Nosotros</a>
     <a href="#galeria">Galería</a>
@@ -309,7 +311,7 @@
       <div class="shot" data-idx="18"><img src="images/hola2.jpeg" alt="Foto 19" loading="lazy"></div>
       <div class="shot" data-idx="19"><img src="images/hola3.jpeg" alt="Foto 20" loading="lazy"></div>
     </div>
-    <p class="gallery-note">Clickeá una foto para abrir el visor. Usá las flechas para navegar.</p>
+    <p class="gallery-note">Para una mejor experiencia, recomendamos ver este portfolio desde un ordenador.</p>
   </div>
 </section>
 
